@@ -82,6 +82,9 @@ class MLP:
                 self.layer1.perceptrons[i].weights[j] -= self.learning_rate * self.__dL_dw1[i][j]
             
             self.layer1.perceptrons[i].bias -= self.learning_rate * self.__dL_db1[i]
+    
+    def get_predict(self) -> list[float]:
+        return self.output_datas
 
 
 def main():
