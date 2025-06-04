@@ -1,0 +1,1 @@
+# Mnist_ANN_Number_Classificator
